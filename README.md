@@ -8,7 +8,7 @@ After reading them, they will be converted and stored in "temperatureAndHumidity
 
 The system enters LPM3 and WDT will wake the system up every 16 seconds. System will take value and will go to sleep again.
 
-Reading Temperature and Humidity:
+# Reading Temperature and Humidity:
 
 1. Trigger sensor by sending 40µSeconds low pulse followed by 40µSeconds High pulse. Configure the pin as input and select raising ede interrupt
 2. Ignore the first two transitions since those transitions arent related to Temperature or Humidity
